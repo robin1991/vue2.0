@@ -1,0 +1,1 @@
+export const getNums = state => state.test.nums + 1;
