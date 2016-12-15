@@ -2,7 +2,7 @@
 <div class="box">
 	<router-link to="/">回到首页</router-link>
 	<router-link to="/test1">去test1</router-link>
-	<div>当前：{{nums}}</div>
+	<div>当前：\{{nums}}</div>
 	<a href="javascript:;"  @click="addNum(2)">点击数字+2</a>
 </div>	
 </template>

@@ -1,7 +1,7 @@
 <template>
 <div class="box">
 	<router-link to="/test">回到test</router-link>
-	<div>当前：{{nums}}</div>
+	<div>当前：\{{nums}}</div>
 	<a href="javascript:;"  @click="addNumsSelf(2)">点击数字+3</a>
 </div>	
 </template>

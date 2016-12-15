@@ -1,14 +1,14 @@
 <template>
   <div class="box">
     <img src="../assets/images/logo.png">
-    <h1>{{ msg }}</h1>
+    <h1>\{{ msg }}</h1>
     <h2>vue-route</h2>
     <ul>
         <li><router-link to="test">第二个页面</router-link></li>
     </ul>
     <h2>vuex</h2>
     <ul>
-        <li>当前：{{nums}} <a href="javascript:;"  @click="addNum(1)">点击数字+1</a></li>
+        <li>当前：\{{nums}} <a href="javascript:;"  @click="addNum(1)">点击数字+1</a></li>
     </ul>
     <h2>Essential Links</h2>
     <ul>
