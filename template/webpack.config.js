@@ -10,7 +10,7 @@ module.exports = {
     entry: './src/main.js',
     output: {
         path: path.resolve(__dirname, './dist/'),
-        filename: 'build.js',
+        filename: 'build.js?[hash]',
         chunkFilename: "[id][chunkhash].js"
     },
     module: {
@@ -67,7 +67,6 @@ if (process.env.NODE_ENV === 'production') {
         assetsPluginInstance,
         //动态生成index.html
         new HtmlWebpackPlugin({
-            hash: true,
             filename: 'index.html',
             template: 'template.html'
         }),
