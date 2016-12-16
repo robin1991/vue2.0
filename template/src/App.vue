@@ -1,4 +1,7 @@
 <style>
+.layout{
+	overflow-x: hidden;
+}
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s ease;
 }
@@ -9,7 +12,6 @@
   position: absolute;
   transition: all .5s cubic-bezier(.55,0,.1,1);
   width: 100%;
-  overflow-x: hidden;
 }
 .slide-left-enter, .slide-right-leave-active {
   opacity: 0;
@@ -23,7 +25,7 @@
 }
 </style>
 <template>
-<div>
+<div class="layout">
 <transition :name="transitionName">
     <keep-alive>
         <router-view class="child-view"></router-view>

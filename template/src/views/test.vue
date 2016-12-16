@@ -3,7 +3,7 @@
     <router-link to="/">回到首页</router-link>
     <router-link to="/test1">去test1</router-link>
     <div>当前：\{{nums}}</div>
-    <a href="javascript:;"  @click="addNum(2)">点击数字+2</a>
+    <a href="javascript:;"  @click="addNumsSelf(2)">点击数字+2</a>
     <a href="javascript:;"  @click="getData">ajax商品详情</a>
 </div>  
 </template>
@@ -29,7 +29,7 @@ export default{
             this.getDetails({ProductID: 4134981});
         },
         ...mapActions([
-            'addNumSelf',
+            'addNumsSelf',
             'getDetails'
         ])
     }
