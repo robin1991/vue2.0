@@ -1,7 +1,4 @@
 <style>
-.layout{
-	overflow-x: hidden;
-}
 .fade-enter-active, .fade-leave-active {
   transition: opacity .5s ease;
 }
@@ -25,12 +22,12 @@
 }
 </style>
 <template>
-<div class="layout">
-<transition :name="transitionName">
-    <keep-alive>
-        <router-view class="child-view"></router-view>
-    </keep-alive>
-</transition>
+<div>
+	<transition :name="transitionName">
+	    <keep-alive>
+	        <router-view class="child-view"></router-view>
+	    </keep-alive>
+	</transition>
 </div>
 </template>
 <script>
