@@ -8,7 +8,7 @@ vue2.0 + vue-router2.0 + vue-resource1.0 + vuex2.0 模版
 
 webpack 可配置本地开发代理设置
 
-[IMG](http://img.haimi.com/FjuICepS0t7nUglBlEgQ-XU0il5L)
+![IMG](http://img.haimi.com/FjuICepS0t7nUglBlEgQ-XU0il5L)
 
 ## Usage
 
