@@ -2,7 +2,7 @@
   "name": "test",
   "description": "test",
   "version": "1.0.0",
-  "author": "serge",
+  "author": "robin",
   "private": true,
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
